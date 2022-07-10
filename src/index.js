@@ -130,7 +130,7 @@ function AddCountryList(countryGetInfo) {
           src="${item.flags.svg}"
           alt="flag"
           />
-        <h2 class="list-item-h2">${item.name}</h2>
+        <h2 class="list-item-h2">${item.name.official}</h2>
       </li>`;
   }).join("");
 
